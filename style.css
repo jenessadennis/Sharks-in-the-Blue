@@ -1,0 +1,90 @@
+/* General styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1; /* Light background for the whole page */
+    color: #333; /* Dark text color for readability */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    background-color: #009688; /* Teal background for the header */
+    color: white;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px 10px 0 0; /* Rounded top corners */
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Header image styling */
+.header-image {
+    width: 100px;
+    height: auto;
+    margin: 20px 0;
+}
+
+/* General styling for sections */
+section {
+    border-radius: 10px; /* Rounded corners for all sections */
+    padding: 20px;
+    margin: 20px;
+    background-color: #f4f4f9; /* Light background color for sections */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Styling for the shark facts section */
+#facts ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Shark species section styling */
+.species {
+    border-radius: 10px; /* Rounded corners for species boxes */
+    background-color: #e0f7fa; /* Light blue background for species sections */
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Image styling within species sections */
+.species-image {
+    border-radius: 10px; /* Rounded corners for images */
+    width: 100%; /* Ensure the image fits within the div */
+    height: auto;
+}
+
+/* Shark conservation section styling */
+#conservation p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Emotional attachment section styling */
+#emotional-attachment p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    background-color: #009688; /* Same as header for consistency */
+    color: white;
+    padding: 15px;
+    border-radius: 0 0 10px 10px; /* Rounded bottom corners */
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
